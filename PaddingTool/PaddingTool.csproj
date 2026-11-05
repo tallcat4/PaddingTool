@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- ビルド成果物にローカルパスやリポジトリURLを埋め込まない -->
+    <DebugType>none</DebugType>
+    <EnableSourceLink>false</EnableSourceLink>
+    <Version>1.0.2</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp4.Extensions" Version="4.10.0.20240616" />
+    <PackageReference Include="OpenCvSharp4.Windows" Version="4.10.0.20240616" />
+  </ItemGroup>
+
+</Project>
